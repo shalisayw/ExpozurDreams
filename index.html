@@ -4,39 +4,160 @@
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-   <title>JD Richards | ExposurDreams</title>
+
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+
+   <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+
+  <link type="text/css" rel="stylesheet" href="css/styles.css"/>
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+
+   <title>JD Richards | ExpozurDreams</title>
+
  </head>
  <body>
-   <div class="container">
 
-    <div class="header"></div>
+   <nav class="navbar navbar-expand-md bg-success navbar-light fixed-top">
+  <a class="navbar-brand" href="#">JD Richards<br>Personal Life Coach</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav ml-md-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Events</a>
+      </li>
+      <li class="nav-item">
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#about-JD">About</a>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Blog</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Coaching</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Contact</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<br>
 
-   <div class="nav">
-     <ul>Home</ul>
-     <ul>About</ul>
-     <ul>Services</ul>
-     <ul>Blog</ul>
-     <ul>Events</ul>
-     <ul>Contact</ul>
-   </div>
+   <!-- <div class="nav-main" id="mainTopnav"> -->
+     <!-- <ul class="sidenav"> -->
+       <!-- <a href="#home" class="active">Home</a>
+       <a href="#events">Events</a>
+       <a href="#about">About</a>
+       <a href="#blog">Blog</a>
+       <a href="#Coaching">Coaching</a>
+       <a href="#contact">Contact</a>
+       <a href="javascript:void(0);" class="icon" onclick="navFunction()">
+           <i class="fa fa-bars"></i>
+       </a> -->
+     <!-- </ul> -->
 
-   <div class="subcribe-service">
+    <!-- <div style="padding-left:16px"></div> -->
+
+   <!-- </div> -->
+
+    <!-- <div id="gradient-bg"> -->
+     <!-- <div  class="front-page-module grt"> -->
+       <!-- <div class="headline_image featured_image"> -->
+         <div class="vidbg-container">
+
+            <!-- <video autoplay loop muted>
+               <source src="/images/exposeure-dreams.mp4" type="video/mp4">
+             </video>
+          <div class="vidbg-overlay"></div> -->
+
+          <video src="/images/exposeure-dreams.mp4"autoplay loop muted></video>
+
+         </div>
+
+       <!-- </div> -->
+     <!-- </div> -->
+
+   <!-- </div> -->
+
+   <div class="time-line">
      <form action="form-repsonse/new" method="POST">
-       <input type="text" name="fullname" size="25"/>
-       <input type="email" name="userEmail" placeholder="your.email@example.com"/>
+       <div class="featured-item" style="background-color:orange">
+       <h2>Pre-order JD Richards' New Book Today</h2></div>
+
+
+       <div class="email-form">
+         <input type="text" name="fullname" placeholder="Your Name"size="25"/>
+         <input type="email" name="userEmail" placeholder="Your Email" size="25"/>
+         <!-- <input type="submit"> -->
+         <input type="submit" class="btn btn-info" value="Yes!">
+       </div>
+      <!-- </div> -->
      </form>
+    </div>
 
+
+<section>
+   <div class="w3-row" id="about-JD">
+     <div class="w3-half w3-container">
+       <img class="img-JD" src="images\Picture JD.jpg" alt="Picture of JD">
+     </div>
+     <div class="w3-half w3-container w3-orange">
+       <h2><span style="color:green">About</span></h2><br>
+       <h1><span style="color:purple">Jacqueline Denise "JD" Richards</span></h1><br>
+       <h3><span style="color:green">Personal Life Coach</span></h3><br>
+       <p>JD is a woman that takes her kingdom assignment seriously.  She is passionate empowering women of all ages to take control of their lives, discover their purpose and expoze their God given dreams for the world to see.</p><br>
+       <a href="#" class="w3-btn w3-green w3-round">Learn More</a>
+     </div>
    </div>
+  </section>
 
-   <div class="about-JD">
-     <img src="images\Picture JD.jpg" alt="">
-   </div>
+  <section class="container-coaching">
+    <div class="bg-img-coaching">
+      <!-- <img class="img-coaching" src="images/Coaching-JD.jpg" alt="room with students"> --></div>
+      <div class="per-service-wrapper">
+        <h2>JD Richards <span style="color:green ;">Personal Coaching</span></h2>
+       <div class="per-service">
+        <a href="#">Personal Growth</a>
+        <a href="#">Career Ambitons</a>
+        <a href="#">Purpose Coaching</a>
+       </div>
+       </div>
 
 
+    </div>
+
+  </section>
 
 
+   <!-- <script>
+   function navFunction() {
+       var x = document.getElementById("mainTopnav");
+       if (x.className === "nav-main") {
+           x.className += " responsive";
+       } else {
+           x.className = "nav-main";
+       }
+   }
+   </script> -->
 
-   </div>
+
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
 
  </body>
+
  </html>
